@@ -42,7 +42,7 @@ form > input {
     background-color: transparent;
     font-size: 1em;
     box-sizing: content-box;
-    width:500px;
+    width:  31px;
     height: 1.5em;
     padding: 0.7em;
     border: 0;
@@ -78,7 +78,7 @@ header > nav img {
 
 .main__results {
     display: grid;
-    grid-template-columns: 170px 4fr 4fr;
+    grid-template-columns: 11em 4fr 4fr;
 }
 
 .results__individual {
@@ -98,7 +98,7 @@ header > nav img {
     box-sizing: content-box;
 }
 .result__individual > section > p {
-    max-width: 700px;
+    max-width: 43em;
     margin-bottom: 2em;
 }
 
@@ -108,7 +108,7 @@ header > nav img {
 
 @media only screen and (max-width: 1024px) {
     .main__results {
-        grid-template-columns: 130px 4fr 4fr;
+        grid-template-columns: 8em 4fr 4fr;
     }
     .searchbar__left > img {
         height: 1.6;
@@ -116,18 +116,18 @@ header > nav img {
     }
 
     form > input {
-        width:300px;
+        width:18em;
         height: 1.2em;
         padding: 0.5em;
     }
     .result__individual > section > p {
-        min-width: 500px;
+        min-width: 31em;
     }
 }
 
 @media only screen and (max-width: 460px) {
     .main__results {
-        grid-template-columns: 130px 4fr 3fr;
+        grid-template-columns: 8em 4fr 3fr;
     }
     .searchbar__left > img {
         height: 1.6;
@@ -136,7 +136,7 @@ header > nav img {
 
     form > input {
         font-size: 0.8em;
-        width: 200px;
+        width: 12;
         height: 1.2em;
         padding: 0.5em;
     }
@@ -149,7 +149,7 @@ header > nav img {
         font-size: 0.8em;
     }
     .result__individual > section > p {
-        min-width: 400px;
+        min-width: 25em;
         font-size: 0.8em;
     }
 }

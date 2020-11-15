@@ -4,7 +4,7 @@ The Odin Foundation - Project Google Home
 
 VERSION NUMBER: 
 
- 1.0.7
+ 1.0.8
 
 DESCRIPTION: 
 
@@ -12,11 +12,11 @@ DESCRIPTION:
 
 PROJECT STATUS: 
 
- Complete
+ In Progress
  
 TO DO:
 
- - project is completed
+ - make sure that the search page displays ok on mobile devices
 
 REQUIREMENTS: 
 
