@@ -7,34 +7,29 @@ body {
     width: 100vw;
 }
 
-.nav__main{
+nav{
     display: flex;
     flex-flow: row-reverse;
 }
 
-.nav__main > ul {
+nav > ul {
     margin: 2em;
     display: flex;
     align-items: center;
 }
 
-.nav__main > ul > li {
-    display: inline;
-}
-
-.nav__main > ul > li > a {
+nav > ul > li > a {
     color: #000;
     text-decoration: none;
     padding-left: 2em;
 }
-.nav--main img {
+nav img {
     height: 1.5em;
 }
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     position: relative;
     top: 15%;
 }
@@ -49,17 +44,13 @@ header {
     max-width: 350px;
 }
 
-.search__area > form {
-    display: flex;
-    align-items: center;
-}
-
 .section > form > img{
     box-sizing: content-box;
     padding: 0.5em;
 }
 
 form {
+    display: flex;
     margin-top: 1.5em;
     box-sizing: content-box;
     border-radius: 50px;
@@ -81,8 +72,14 @@ form > input {
     padding: 0.7em 0;
     outline: 0;
     border: 0;
-
 }
+
+.section > form > img{
+    box-sizing: content-box;
+    padding: 0.5em;
+}
+
+
 
 .searchbar > button {
     background-color: transparent;
@@ -98,27 +95,29 @@ form > input {
 
 .frequently__used--icon {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
     height: 75px;
     width: 75px;
     margin: 0.2 0.4em;
 }
+
 .frequently__used--icon > a {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+
 .frequently__used--icon img {
     height: 50px;
     border-radius: 50em;
 }
+
 .frequently__used--icon a {
     color: #000;
     text-decoration: none;
 }
+
 h2{
     font-weight: 300;
     font-size: 0.6em;
@@ -130,11 +129,7 @@ h2{
 
 
 @media screen and (max-width: 600px) {
-    .nav__main {
-        flex-flow: row-reverse; 
-        justify-content: left;
-    }
-    .nav__main > ul > li:nth-child(1), .nav__main > ul > li:nth-child(2) {
+    nav > ul > li:nth-child(1), nav > ul > li:nth-child(2) {
         display: none;
     }
     .search__area > img{
@@ -144,8 +139,6 @@ h2{
         width: 300px;
     }
     .frequently__used {
-    margin-top: 2em;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .frequently__used--icon img {
@@ -154,11 +147,7 @@ h2{
   
 }
 @media screen and (max-width: 400px) {
-    .nav__main {
-        flex-flow: row-reverse; 
-        justify-content: left;
-    }
-    .nav__main > ul > li:nth-child(1), .nav__main > ul > li:nth-child(2) {
+    nav > ul > li:nth-child(1), nav > ul > li:nth-child(2) {
         display: none;
     }
     .search__area > img{
@@ -169,8 +158,6 @@ h2{
         font-size: 0.8em;
     }
     .frequently__used {
-    margin-top: 2em;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     }
     .frequently__used--icon img {
@@ -178,11 +165,7 @@ h2{
     }
 }
 @media screen and (max-width: 300px) {
-    .nav__main {
-        flex-flow: row-reverse; 
-        justify-content: left;
-    }
-    .nav__main > ul > li:nth-child(1), .nav__main > ul > li:nth-child(2) {
+    nav > ul > li:nth-child(1), nav > ul > li:nth-child(2) {
         display: none;
     }
     .search__area > img{
@@ -193,8 +176,6 @@ h2{
         font-size: 0.6em;
     }
     .frequently__used {
-    margin-top: 2em;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     }
     .frequently__used--icon img {
