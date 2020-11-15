@@ -11,8 +11,6 @@ header {
     padding: 2em 2em 1em 2em;
     display: flex;
     align-items: top;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .searchbar__left > img {
@@ -28,7 +26,6 @@ header {
 form {
     border: 1px solid rgb(201, 201, 201);
     display: flex;
-    box-sizing: content-box;
     border-radius: 50px;
     -webkit-box-shadow: 0px 10px 21px -9px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 10px 21px -9px rgba(0,0,0,0.1);
@@ -48,7 +45,6 @@ form > input {
     width:500px;
     height: 1.5em;
     padding: 0.7em;
-    outline: 0;
     border: 0;
 }
 
@@ -58,7 +54,7 @@ form > input {
     padding: 0 1em;
 }
 
-nav{
+nav {
     display: flex;
 }
 
@@ -105,6 +101,9 @@ header > nav img {
     max-width: 700px;
     margin-bottom: 2em;
 }
+
+
+/* media queriess */
 
 
 @media only screen and (max-width: 1024px) {

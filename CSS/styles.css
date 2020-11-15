@@ -44,7 +44,7 @@ header {
     max-width: 350px;
 }
 
-.section > form > img{
+.section > form > img {
     box-sizing: content-box;
     padding: 0.5em;
 }
@@ -111,21 +111,20 @@ form > input {
     text-decoration: none;
 }
 
-h2{
+h2 {
     font-weight: 300;
     font-size: 0.6em;
 }
 
 
-
-/* media queries for responsiveness below */
+/* media queriess */
 
 
 @media screen and (max-width: 600px) {
     nav > ul > li:nth-child(1), nav > ul > li:nth-child(2) {
         display: none;
     }
-    .search__area > img{
+    .search__area > img {
         width: 250px;
     }
     form > input {
@@ -143,7 +142,7 @@ h2{
     nav > ul > li:nth-child(1), nav > ul > li:nth-child(2) {
         display: none;
     }
-    .search__area > img{
+    .search__area > img {
         width: 200px;
     }
     form > input {
@@ -161,7 +160,7 @@ h2{
     nav > ul > li:nth-child(1), nav > ul > li:nth-child(2) {
         display: none;
     }
-    .search__area > img{
+    .search__area > img {
         width: 150px;
     }
     form > input {
