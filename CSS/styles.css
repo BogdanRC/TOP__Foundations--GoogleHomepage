@@ -74,13 +74,6 @@ form > input {
     border: 0;
 }
 
-.section > form > img{
-    box-sizing: content-box;
-    padding: 0.5em;
-}
-
-
-
 .searchbar > button {
     background-color: transparent;
     border: none;
