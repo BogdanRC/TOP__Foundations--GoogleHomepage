@@ -6,25 +6,77 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <nav class="nav__main">
             <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li><img src="CSS/menu-black-18dp.svg" alt="Google Toolbox"></li>
-                <li><img src="CSS/perm_identity-black-18dp.svg" alt="Profile"></li>
+                <li><a href="">Gmail</a></li>
+                <li><a href="">Images</a></li>
+                <li><a href=""><img src="CSS/menu-black-18dp.svg" alt="Google Toolbox"></a></li>
+                <li><a href=""><img src="CSS/perm_identity-black-18dp.svg" alt="Profile"></a></li>
             </ul>
     </nav>
     <header>
-        <section>
-            <img src="" alt="Google logo">
-            <form class="searchbar"action="">
+        <section class="search__area">
+            <img src="CSS/google--logo.png" alt="Google logo">
+            <form class="searchbar" action="https://www.wikipedia.com">
                 <!-- we add the images in the form element, remove the styling fronm the form element, add box hadow and border radius on the form element-->
-                <img src="CSS/search-24px.svg" alt="Google Toolbox">
-                <input type="text" placeholder="Search Google or type a URL">
-                <img src="CSS/menu-black-18dp.svg" alt="Google Toolbox"> 
+               <button><img src="CSS/search-24px.svg" alt="Google Toolbox"></button>
+                <input url="text" placeholder="Search Google or type a URL">
+                <button><img src="CSS/mic-24px.svg" alt="Google Toolbox"> </button>
             </form>
+        </section>
+        <section class="frequently__used">
+            <section class="frequently__used--icon">
+                <a href="">
+                    <img src="CSS/youtube-logo.png" alt="">
+                    <h2>youtube</h2>
+                </a>
+            </section>
+            <section class="frequently__used--icon">
+                <a href="">
+                    <img src="CSS/facebook-logo.png" alt="">
+                    <h2>facebook</h2>
+                </a>
+            </section>
+            <section class="frequently__used--icon">
+                <a href="">
+                    <img src="CSS/twitter-logo.png" alt="">
+                    <h2>twitter</h2>
+                </a>
+            </section>
+            <section class="frequently__used--icon">
+                <a href="">
+                    <img src="CSS/github-logo.png" alt="">
+                    <h2>GitHub</h2>
+                </a>
+            </section>
+            <section class="frequently__used--icon">
+                <a href="">
+                    <img src="CSS/facebook-logo.png" alt="">
+                    <h2>facebook</h2>
+                </a>
+            </section>
+            <section class="frequently__used--icon">
+                <a href="">
+                    <img src="CSS/twitter-logo.png" alt="">
+                    <h2>twitter</h2>
+                </a>
+            </section>
+            <section class="frequently__used--icon hidden">
+                <a href="">
+                    <img src="CSS/github-logo.png" alt="">
+                    <h2>GitHub</h2>
+                </a>
+            </section>
+            <section class="frequently__used--icon hidden">
+                <a href="">
+                    <img src="CSS/youtube-logo.png" alt="">
+                    <h2>youtube</h2>
+                </a>
+            </section>
         </section>
     </header>
 </body>
