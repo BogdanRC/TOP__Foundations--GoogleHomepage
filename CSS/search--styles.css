@@ -42,7 +42,7 @@ form > input {
     background-color: transparent;
     font-size: 1em;
     box-sizing: content-box;
-    width:  31px;
+    width:  500px;
     height: 1.5em;
     padding: 0.7em;
     border: 0;
@@ -98,7 +98,7 @@ header > nav img {
     box-sizing: content-box;
 }
 .result__individual > section > p {
-    max-width: 43em;
+    max-width: 100%;
     margin-bottom: 2em;
 }
 
@@ -108,48 +108,35 @@ header > nav img {
 
 @media only screen and (max-width: 1024px) {
     .main__results {
-        grid-template-columns: 8em 4fr 4fr;
+        grid-template-columns: 8em 4fr 2fr;
     }
     .searchbar__left > img {
-        height: 1.6;
+        height: 1.6em;
         margin: 0.55em 1.5em 0 0;
     }
-
     form > input {
-        width:18em;
+        width:20em;
         height: 1.2em;
         padding: 0.5em;
-    }
-    .result__individual > section > p {
-        min-width: 31em;
     }
 }
-
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 775px) {
     .main__results {
-        grid-template-columns: 8em 4fr 3fr;
+        grid-template-columns: 8em 8fr 2fr;
+    }
+    .results__all{
+        width: 400px;
     }
     .searchbar__left > img {
-        height: 1.6;
+        height: 1.6em;
         margin: 0.55em 1.5em 0 0;
     }
-
+    form {
+        min-width: 60%;
+    }
     form > input {
-        font-size: 0.8em;
-        width: 12;
+        width:15em;
         height: 1.2em;
         padding: 0.5em;
-    }
-    .searchbar > button {
-        background-color: transparent;
-        border: none;
-        padding: 0 0.7em;
-    }
-    .result__individual > section > a {
-        font-size: 0.8em;
-    }
-    .result__individual > section > p {
-        min-width: 25em;
-        font-size: 0.8em;
     }
 }
